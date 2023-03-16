@@ -1,0 +1,14 @@
+
+name: 'set pull request title'
+description: 'sets the title of a pull request to the given value'
+author: 'Joost Somers'
+runs:
+  using: 'node18'
+  main: 'dist/index.js'
+inputs:
+  github-TOKEN:
+    description: 'token of your github'
+    required: true
+  title:
+    description: 'PR title'
+    required: true
