@@ -3,7 +3,7 @@ name: 'set pull request title'
 description: 'sets the title of a pull request to the given value'
 author: 'Joost Somers'
 runs:
-  using: 'node18'
+  using: 'node16'
   main: 'dist/index.js'
 inputs:
   github-TOKEN:
