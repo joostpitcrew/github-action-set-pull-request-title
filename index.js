@@ -16,8 +16,8 @@ async function updatePr(token, title, pull_number, owner, repo) {
 
 async function run() {
   try {
-    const token = core.getInput('github-token', {required: true});
-    const title = core.getInput('pr-title', {required: true});
+    const token = core.getInput('token', {required: true});
+    const title = core.getInput('title', {required: true});
     const pull_number = github.context.payload.pull_request.number;
     const owner = github.context.repo.owner;
     const repo = github.context.repo.repo;
