@@ -6,9 +6,9 @@ runs:
   using: 'node16'
   main: 'dist/index.js'
 inputs:
-  github-TOKEN:
+  github-token:
     description: 'token of your github'
     required: true
-  title:
+  pr-title:
     description: 'PR title'
     required: true
