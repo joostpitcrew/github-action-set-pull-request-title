@@ -1,7 +1,7 @@
 {
   "name": "github-action-set-pull-request-title",
   "version": "1.0.0",
-  "description": "github action to automatically set the title of pull requests",
+  "description": "github action to automatically set the title of pull requests\r [GitHub Action](https://github.com/features/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
